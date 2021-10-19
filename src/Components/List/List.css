@@ -1,0 +1,78 @@
+.popUp_Container {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.PopUp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  width: 400px;
+  max-width: 100%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 5px;
+  animation-name : popUpShow;
+  animation-duration : 1s;
+}
+
+
+.PopUp .title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+
+.PopUp .title span {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.user-info {
+  margin: 20px 0px;
+}
+
+
+.user-info h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+
+.user-info h3 span {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.popUp-btn {
+  height: 50px;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+
+
+@keyframes popUpShow {
+  from {
+    opacity : 0;
+  }
+
+  to {
+    opacity : 1;
+  }
+}
+

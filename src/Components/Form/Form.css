@@ -1,0 +1,41 @@
+/* form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.form-control {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 8px;
+  font-weight: 400;
+  color: #000;
+  font-family: inherit;
+  border: 2px solid teal;
+  letter-spacing: 1px;
+}
+
+button {
+  height: 45px;
+  width: 90px;
+  margin-top: 15px;
+  background-color: teal;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
